@@ -1,0 +1,41 @@
+.table-container {
+    background-color: #f7f1f1;
+    margin-top: 2rem;
+    padding: .5rem 0;
+}
+
+.table-container table {
+    text-align: center;
+    width: 80%;
+    margin-left: 13rem;
+    background: #fff;
+    border-radius: .5rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+.table-container thead {
+    margin: 0;
+}
+.table-container th{
+    padding: .5rem 0;
+    background: #F7F6FF;;
+    font-weight: 600 !important;
+    border-radius: 15px 15px 0px 0px;
+}
+.table-container tr, th , td{
+    border: 1px solid #D1CCF6;
+    padding: .2rem .4rem;
+    font-weight: 500;
+}
+
+.table-container button{
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .5rem .8rem;
+    margin-left: .5rem;
+    border-radius: 50%;
+    color: #fff !important;
+}

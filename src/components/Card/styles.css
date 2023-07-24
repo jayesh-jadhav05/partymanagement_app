@@ -1,0 +1,121 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 13rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.toggle-btn {
+    border-radius: 1.5rem;
+    border: 1px solid #AAA7A7;
+    background: #8E8E8E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    width: fit-content;
+}
+
+.toggle-btn p {
+    margin-left: .5rem;
+}
+
+.toggle-btn .both {
+    background-color: #fff;
+    color: #8E8E8E;
+    border-radius: 1.5rem;
+    padding: .2rem .5rem;
+}
+
+.card-box {
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+    border-radius: .5rem;
+}
+
+.card-box .top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-box .party {
+    font-weight: 600;
+}
+
+.card-box button {
+    background-color: #fff;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    padding: .1rem .4rem;
+}
+
+.card-box .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+.export-box {
+    padding: .5rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+    border-radius: .5rem;
+    margin-right: 4rem;
+}
+.export-box .excel-pdf{
+    margin-bottom: .5rem;
+}
+.export-box label{
+    margin-left: .8rem;
+}
+.export-box .detailed-summury {
+    margin-top: .5rem;
+}
+.export-box button {
+    background-color: #fff;
+    color: #8E8E8E;
+    border-radius: 1.5rem;
+    padding: .2rem .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+.search-bar {
+    margin-left: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+}
+.search-bar button{
+    background-color: #fff;
+    color: #8E8E8E;
+    border-radius: 1.5rem;
+    padding: .2rem .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+.search {
+    width: 50%;
+}
+.search-bar input {
+    padding: .4rem .5rem;
+    border-radius: .4rem;
+    border: 1px solid #8E8E8E;
+    outline: none;
+    width: 40%;
+}
