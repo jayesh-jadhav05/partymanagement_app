@@ -20,4 +20,4 @@ e a live demo of the application [here](link-to-your-demo)](https://partymanagem
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/party-management-app.git
+git clone https://github.com/Ajay-Chaudhari01001/Accounting-App.git
