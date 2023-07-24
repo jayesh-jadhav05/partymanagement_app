@@ -5,7 +5,7 @@ The Party Management App is a web application built with React and Firebase that
 ## Demo
 https://github.com/Ajay-Chaudhari01001/Accounting-App/assets/55138445/9c63fefd-9c16-434f-8f49-ee8be5679262
 
-e a live demo of the application [here](link-to-your-demo).
+e a live demo of the application [here](link-to-your-demo)](https://partymanagement.netlify.app/).
 
 ## Features
 
