@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./styles.css";
-// import { FcGoogle } from "react-icons/fa";
 import Button from "../common/Button"
 import InputComponent from "../common/Input"
 import {

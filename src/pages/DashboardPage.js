@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SideBar from "../components/SideBar/sidebar";
 import Card from "../components/Card";
-import Table from "../components/DataTable";
+import Table from "../components/Table";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebase";
 import { collection, getDocs, query } from "firebase/firestore";
@@ -36,8 +36,6 @@ const Dashboard = () => {
     try {
       signOut(auth)
         .then(() => {
-          // signed out successfylly
-          // toast.success("Logout Suceessfylly");
           alert("Lgout Suceessfully");
           navigate("/");
         })

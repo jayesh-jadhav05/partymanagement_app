@@ -37,7 +37,8 @@
 }
 
 .have-an-account span:hover {
-    color: #b172e8;
+    /* color: #b172e8; */
+    color: blueviolet;
     transition: ease-in-out .3s;
 }
 
